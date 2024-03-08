@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/c.css">
+</head>
+
+<body>
+  <form action="#" style="width: 40%; height: 40%;" title="mohamed saber" id="myform" target="_blank" method="post">
+    <fieldset>
+      <legend>Registration Form</legend>
+      <div class="input">
+        <div class="moh">
+          <label for="123">UserName</label>
+          <input type="text" name="" id="123">
+        </div>
+
+        <div class="saber">
+          <label for="456">Password</label>
+          <input type="password" name="" id="456">
+        </div>
+      </div>
+      <div class="gender">
+        <label for="thy">Gender:</label><br>
+
+        <input type="radio" name="gender" id="thy" value="Male">Male <br>
+        <input type="radio" name="gender" id="thy" value="Female">Female <br>
+      </div>
+      <br>
+
+      <div style="margin-left: 20px;">
+        <label for="th">Choose Your Courses:</label><br>
+
+        <input type="checkbox" name="courses" id="th" value="DB">DB
+        <input type="checkbox" name="courses" id="th" value="OS" style="margin-left: 55px;">OS <br>
+        <input type="checkbox" name="courses" id="th" value="Math 1">Math 1
+        <input type="checkbox" name="courses" id="th" value=" Discrete" style="margin-left: 20px;">Discrete
+      </div>
+      <br>
+      <input type="submit" style="margin-left: 20px;" value="submit">
+      <input onclick="myfunction" type="reset" value="Reset">
+
+  </form>
+</body>
+<script>
+  function myfunction() {
+    document.getElementById("myform").reset();
+  }
+</script>
+
+</html>

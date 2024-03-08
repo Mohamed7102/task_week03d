@@ -1,0 +1,33 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 20px;
+  margin-top: 40px;
+
+}
+
+.input input {
+  width: 350px;
+}
+
+.input label {
+  padding-right: 10px;
+}
+
+.saber {
+  padding: 10px 0;
+}
+
+.saber label {
+  margin-right: 10px;
+}
+
+fieldset#mohamedsaber {
+  border: none;
+}
+
+.gender {
+  margin-left: 20px;
+}
